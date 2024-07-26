@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background-color: #153448;
+}
+.container {
+    
+    margin-left: 28%;
+    margin-top: 8rem;
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    background-color: #FF9EAA;
+    border : none;
+    border-radius: 10px;
+    box-shadow: #FF9EAA;
+    box-shadow: 0 0.93em 1.25em  rgba(0, 0, 0, 0.3);
+
+      
+}
+h1{
+    color: white;
+    margin-top: 3rem;
+    margin-left: 15rem;
+    font-size: 2.3rem;
+    font-weight: 300;
+    display:inline-block;
+}
+.input {
+    margin-top: 2rem;
+    display:block ;
+    margin: 50px;
+    gap: 2rem;
+    margin-left: 8rem;
+    
+}
+input#date {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 15px 35px 15px 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f0ebe9;
+    outline: none;
+    box-shadow: 0 0.6em 0.4em  rgba(0, 0, 0, 0.3);
+    color: crimson;
+
+
+}
+input#date:hover{
+    font-size: 1.5rem;
+    padding: 15px 35px 15px 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #B1AFFF;
+    transition: 0.5s;
+    
+
+}
+button#age-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 15px 40px 15px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    box-shadow: 0 0.6em 0.4em  rgba(0, 0, 0, 0.3);
+    color: crimson;
+
+}
+button#age-button:hover{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 15px 40px 15px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: #B1AFFF;
+    transition: .5s;
+    color: crimson;
+}
+.output{
+    margin-top: 5rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7rem;
+}  
+.output div{
+    height: 110px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #B1AFFF;
+    display:grid;
+    place-items: center;
+    padding-bottom: 1rem;
+    color: crimson;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.output.div:hover{
+    transition: .5s;
+}
+span{
+    margin-top: 2rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
